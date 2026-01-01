@@ -1,8 +1,6 @@
 from typing import Optional, Any, Dict, List
 
-from src.models.base_struc import BaseStruct
-from src.models.discriminator_object import DiscriminatorObject
-from src.models.external_documentation_object import ExternalDocumentationObject
+from src.models.base_struct import BaseStruct
 
 
 class SchemaObject(BaseStruct):

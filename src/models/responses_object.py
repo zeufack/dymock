@@ -1,9 +1,6 @@
-from typing import Optional, Union, Mapping
 
 
-from src.models.reference_object import ReferenceObject
-from src.models.response_object import ResponseObject
-from src.models.base_struc import BaseStruct
+from src.models.base_struct import BaseStruct
 
 
 class ResponsesObject(BaseStruct):

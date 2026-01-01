@@ -2,7 +2,7 @@ from typing import Any, Mapping, Optional
 
 from msgspec import field
 
-from src.models.base_struc import BaseStruct
+from src.models.base_struct import BaseStruct
 from src.models.example_object import ExampleObject
 from src.models.media_type_object import MediaTypeObject
 from src.models.reference_object import ReferenceObject

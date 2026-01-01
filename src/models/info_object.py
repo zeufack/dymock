@@ -1,7 +1,7 @@
 from typing import Optional
 
 
-from src.models.base_struc import BaseStruct
+from src.models.base_struct import BaseStruct
 from src.models.contact_object import ContactObject
 from src.models.license_object import LicenseObject
 

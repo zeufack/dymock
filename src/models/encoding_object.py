@@ -1,8 +1,6 @@
 from typing import Mapping, Optional
 
-from src.models.base_struc import BaseStruct
-from src.models.header_object import HeaderObject
-from src.models.reference_object import ReferenceObject
+from src.models.base_struct import BaseStruct
 
 
 class EncodingObject(BaseStruct):

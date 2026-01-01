@@ -1,6 +1,6 @@
 from typing import Optional, Mapping
 
-from src.models.base_struc import BaseStruct
+from src.models.base_struct import BaseStruct
 from src.models.media_type_object import MediaTypeObject
 
 

@@ -1,6 +1,6 @@
 from typing import Optional
 
-from src.models.base_struc import BaseStruct
+from src.models.base_struct import BaseStruct
 
 
 class ServerVariableObject(BaseStruct):

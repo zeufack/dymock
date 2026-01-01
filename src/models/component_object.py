@@ -1,17 +1,17 @@
 from typing import Mapping, Optional
 
-from src.models.calback_object import CalbackObject
+from src.models.callback_object import CallbackObject
 from src.models.example_object import ExampleObject
 from src.models.header_object import HeaderObject
 from src.models.link_object import LinkObject
 from src.models.parameter_object import ParameterObject
 from src.models.path_item_object import PathItemObject
 from src.models.reference_object import ReferenceObject
-from src.models.request_body_body import RequestBodyObject
+from src.models.request_body_object import RequestBodyObject
 from src.models.response_object import ResponseObject
 from src.models.schema_object import SchemaObject
 from src.models.security_scheme_object import SecuritySchemeObject
-from src.models.base_struc import BaseStruct
+from src.models.base_struct import BaseStruct
 
 
 class ComponentsObject(BaseStruct):
@@ -30,5 +30,5 @@ class ComponentsObject(BaseStruct):
         None
     )
     links: Optional[Mapping[str, LinkObject]] = None
-    callbacks: Optional[Mapping[str, CalbackObject | ReferenceObject]] = None
+    callbacks: Optional[Mapping[str, CallbackObject | ReferenceObject]] = None
     pathItems: Optional[Mapping[str, PathItemObject | ReferenceObject]] = None

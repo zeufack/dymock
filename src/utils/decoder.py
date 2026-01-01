@@ -16,7 +16,7 @@ from src.models.operation_object import OperationObject
 from src.models.parameter_object import ParameterObject
 from src.models.path_item_object import PathItemObject
 from src.models.reference_object import ReferenceObject
-from src.models.request_body_body import RequestBodyObject
+from src.models.request_body_object import RequestBodyObject
 from src.models.response_object import ResponseObject
 from src.models.schema_object import SchemaObject
 from src.models.security_scheme_object import SecuritySchemeObject
@@ -26,7 +26,7 @@ from src.models.encoding_object import EncodingObject
 
 
 class CustomDecoder:
-    """As msgspec have limation to work we union type, this custome decoder will help us handle the union type."""
+    """As msgspec have limitation to work we union type, this custom decoder will help us handle the union type."""
 
     def __init__(self):
         self._decoders = {

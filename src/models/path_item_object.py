@@ -2,7 +2,7 @@ from typing import Optional, Union
 
 from msgspec import field
 
-from src.models.base_struc import BaseStruct
+from src.models.base_struct import BaseStruct
 from src.models.operation_object import OperationObject
 from src.models.parameter_object import ParameterObject
 from src.models.reference_object import ReferenceObject

@@ -7,7 +7,7 @@ from src.models.path_item_object import PathItemObject
 from src.models.security_object import SecurityRequirementObject
 from src.models.server_object import ServerObject
 from src.models.tag_object import TagObject
-from src.models.base_struc import BaseStruct
+from src.models.base_struct import BaseStruct
 
 
 class OpenAPIObject(BaseStruct):

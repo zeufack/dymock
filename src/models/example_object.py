@@ -1,6 +1,6 @@
 from typing import Optional, Any
 
-from src.models.base_struc import BaseStruct
+from src.models.base_struct import BaseStruct
 
 
 class ExampleObject(BaseStruct):

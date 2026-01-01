@@ -1,6 +1,6 @@
 from typing import Dict, Optional, Union, Mapping
 
-from src.models.base_struc import BaseStruct
+from src.models.base_struct import BaseStruct
 from src.models.header_object import HeaderObject
 from src.models.link_object import LinkObject
 from src.models.media_type_object import MediaTypeObject
